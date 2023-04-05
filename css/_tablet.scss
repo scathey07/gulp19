@@ -1,0 +1,33 @@
+/*Media Queries*/
+:root {
+    --nav-justify-content: center;
+} 
+
+@media only screen and (min-width: 576px) {
+    figure {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      column-gap: 1rem;
+    }
+  
+  figure img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+ figcaption {
+   color: #f2f2f2;
+   padding: 0.5rem;
+ }
+ nav ul {
+   display: flex;
+   flex-flow: row wrap;
+   gap: 1rem;
+   justify-content: var(--nav-justify-content);
+ }
+ nav a {
+   margin: 0 0 3rem 0;
+ }
+ .logo {
+   flex-basis: 100%;
+   text-align: center;
+}

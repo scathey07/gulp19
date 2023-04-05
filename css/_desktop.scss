@@ -1,0 +1,69 @@
+@media (min-width: 768px) {
+    figure {
+      margin: 3rem 0 0 0;
+      flex-basis: 25%;
+      background-color: #59331d;
+      border-radius: 10px;
+    }
+    figure img {
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+    }
+    figcaption {
+      color: #f2f2f2;
+      padding: 0.5rem;
+    }
+    }
+    figure img {
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+    }
+    figcaption {
+      color: #f2f2f2;
+      padding: 0.5rem;
+    }
+  @media (min-width: 768px) {
+    figure {
+      margin: 3rem 0 0 0;
+      flex-basis: 25%;
+      background-color: #59331d;
+      border-radius: 10px;
+    }
+    figure img {
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+    }
+    figcaption {
+      color: #f2f2f2;
+      padding: 0.5rem;
+    }
+    :root {
+      --scale: 1.25;
+    }
+  }
+    
+    @media (min-width: 992px) {
+      figure {
+        margin: 3rem 0 0 0;
+        flex-basis: 25%;
+        background-color: #59331d;
+        border-radius: 10px;
+      }
+      figure img {
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+      }
+      figcaption {
+        color: #f2f2f2;
+        padding: 0.5rem;
+      }
+      :root {
+          --nav-justify-content: flex-start;
+      } 
+  
+      * {box-sizing:border-box}
+      :root {
+          --scale: 1.33;
+        }
+      }
+      

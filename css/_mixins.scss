@@ -1,0 +1,14 @@
+//mixins
+@mixin nospace {
+    margin: 0;
+    padding: 0;
+  }
+  //declaring, calling, and passing arguments into mixins
+
+@mixin container($margin, $padding){
+    margin: $margin;
+    padding: $padding;
+}
+.products-container {
+    @include container(0, 0);
+}
